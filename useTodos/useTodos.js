@@ -1,5 +1,5 @@
 import { useEffect, useReducer } from "react";
-import { todoReducer } from "../08-useReducer/todoReducer";
+import { todoReducer } from "./todoReducer";
 
 const init = () => {
 	//retornamos parseado lo que haya en el local storage o si no hay nada devolvemos un array vacio
